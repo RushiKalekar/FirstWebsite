@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+   background-image: url(https://images.pexels.com/photos/412682/pexels-photo-412682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+   background-repeat: no-repeat;
+   background-size: cover;
+   justify-content: center;
+   /* align-items: center; */
+   /* background-color: rgb(196, 73, 49); */
+}
+#nav-bar{
+    /* border: 2px solid red; */
+    
+}
+#list{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+.list-items{
+    margin: 18px;
+    list-style: none;
+}
+.link-list{
+    font-size: 30px;;
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+    transition: 0.9s;
+}
+.link-list:hover{
+   background-color: rgba(24, 215, 240, 0.801);
+   font-size: 35px;
+   border-radius: 10px;
+}
+#welcome-section{
+    /* border: 2px solid green; */
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#my-name{
+    font-size: 7rem;
+    animation-name: aniket;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes aniket {
+    0%{
+        color: rgb(0, 255, 191);
+        font-size: 7.1rem;
+    }
+    25%{
+        color: rgb(10, 122, 150);
+        font-size: 7.3rem;
+    }
+    50%{
+        color: rgb(6, 83, 109);
+        font-size: 7.5rem;
+    }
+    75%{
+        color: rgb(10, 122, 150);
+        font-size: 7.3rem;
+    }
+    100%{
+        color: rgb(0, 255, 191);
+        font-size: 7.1rem;
+    }
+}
+#my-title{
+    font-size: 2rem;
+}
+#under:hover{
+    /* text-decoration: underline; */
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+    /* transition: 3s ease; */
+    transition-delay: 10s;
+}
+/* #under::after{
+     top: 10px;
+} */
+#project-title{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 80%;
+    /* margin-top: 30px; */
+    margin: 30px auto;
+    background-color: rgba(116, 146, 194,0.5);
+    border-radius: 20px;
+}
+iframe{
+    height: 500px;
+    width: 30vw;
+    border: 2px solid red;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.9s;
+}
+iframe:hover{
+    transform: scale(1.1);
+    
+}
+.container{
+    display: flex;
+}
+.my-project{
+    margin: 0 10px;
+}
+#pro-info{
+    margin-top: 39px;
+    /* border: 2px solid red; */
+    font-size: 2.1rem;
+    font-weight: 750;
+}
+#out-link{
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+margin: 50px 0;}
+    #profile-link{
+        margin: 50px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: black;
+        font-size: 1.7rem;
+        background-color: chocolate;
+        border-radius: 29px;
+        height: 47px;
+        width: 262px;
+        text-align: center;
+    }
+    #profile-link:hover{
+        background-color: coral;
+    }
+    @media screen and (min-width: 480px) {
+        body {
+          flex-wrap: wrap;
+          font-weight: 1000;
+        }
+      }
+      #first-project-info{
+          margin: 10px;
+          font-size: 1.2rem;
+      }
